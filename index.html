@@ -5,15 +5,21 @@
     Google
   </title>
   <style>
-    .header {
+    .left-header {
       font-family: arial,sans-serif;
       font-size: 13px;
-      padding-top: 15px;
+      padding-left: 15px;
       color: black;
+    }
+    .right-header {
+      font-family: arial,sans-serif;
+      font-size: 13px;
+      color: black;
+      float: right;
     }
     .center {
       text-align: center;
-      margin-top: 109px;
+      margin-top: 85px;
       margin-bottom: 25px;
     }
     a {
@@ -28,6 +34,7 @@
       border-radius: 4px;
       background-color: #4487fc;
       color: white;
+      width: 70px;
     }
     a:hover {
       text-decoration: underline;
@@ -51,23 +58,23 @@
   </style>
 </head>
 <body>
-  <div class="header">
-    <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" style="padding-left:15px">About</a>
-    <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" style="padding-left:15px">Store</a>
-      <table style="float:right">
-        <td>
-          <a href="https://mail.google.com/mail/?tab=wm&ogbl" style="padding-left:15px">Gmail</a>
-        </td>
-        <td>
-          <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" style="padding-left:15px">Images</a>
-        </td>
-        <td>
-          <a href="index.html" style="padding-left:15px"><img src="https://i.imgur.com/YT4mX3m.png" height=18px width=18px></a>
-        </td>
-        <td style="padding:0px 15px 0px 15px">
-          <button class="sign-in">Sign in</button>
-        </td>
-      </table>
+  <div style="padding-top:15px;">
+    <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" class="left-header">About</a>
+    <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" class="left-header">Store</a>
+    <table class ="right-header">
+      <td>
+        <a href="https://mail.google.com/mail/?tab=wm&ogbl" style="padding-left:15px">Gmail</a>
+      </td>
+      <td>
+        <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" style="padding-left:15px">Images</a>
+      </td>
+      <td>
+        <a href="index.html" style="padding-left:15px"><img src="https://i.imgur.com/YT4mX3m.png" height=18px width=18px></a>
+      </td>
+      <td style="padding:0px 15px 0px 15px">
+        <button class="sign-in">Sign in</button>
+      </td>
+    </table>
   </div>
   <br>
   <br>
