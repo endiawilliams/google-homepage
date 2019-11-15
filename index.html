@@ -13,6 +13,8 @@
     }
     .center {
       text-align: center;
+      margin-top: 109px;
+      margin-bottom: 25px;
     }
     a {
       color: black;
@@ -31,16 +33,16 @@
       text-decoration: underline;
     }
     .search-bar {
-      height: 39px;
-      width: 387px;
-      margin-top: 25px;
-      font-size: 15px;
-      border: transparent;
-    }
-    .search-border {
+      background-image: url("https://i.imgur.com/1d8bkbV.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 486px 48px;
       text-align: center;
-      border: 1px solid #ddd;
-      border-radius: 25%;
+    }
+    .container {
+      height: 40px;
+      width: 387px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -66,13 +68,11 @@
   <br>
   <br>
   <div class="center">
-    <img alt="Google" height="92" style="margin-top:109px" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    <img alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
     <br>
   </div>
-  <div>
-    <img src="https://i.imgur.com/QSrlxx1.png" height=17px width=17px style="padding-right:12px">
-    <input class="search-bar">
-    <img src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" height=22px width=22px style="padding-left:9px">
+  <div class="search-bar">
+    <input class="container">
   </div>
 </body>
 </html>
