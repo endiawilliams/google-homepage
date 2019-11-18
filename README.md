@@ -1,0 +1,7 @@
+Thank you for opening my README file! This project was a brief exercise in front-end web development using HTML and CSS in an attempt to recreate the look of the Google homepage. This is part of the Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css).
+
+Although the buttons are lacking in functionality and the user cannot search, I took care to make sure all of the links were functional and that the page looked as close to the original as possible, using the HTML and CSS that I know. Div tags were helpful in keeping my work organized as much as possible, and many CSS classes were used to make the code readable.
+
+One of the most difficult parts of this project was configuring the search bar so that I could have a text input field inside of a long, rounded border, with an image on either side. A few different methods were tried but eventually I came to the conclusion to just put a text field on top of a static image. It was probably not the ideal solution and it was not how the code looks on the real Google home page, but it got the job done. I also had some trouble getting the gray bar at the bottom to fill out the page. In the end, I settled for "close enough" which fits within the scope of what was expected for this project, as I do not have enough knowledge yet to know how I would fix that.
+
+This has been a useful exercise to get my toes wet, and I feel that I learned a lot. 
